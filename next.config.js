@@ -12,6 +12,10 @@ module.exports = {
         {
           source: '/:alias',
           destination: '/api/:alias'
+        },
+        {
+          source: '/',
+          destination: '/api'
         }
       ]
     };
